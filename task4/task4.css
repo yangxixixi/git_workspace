@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main-one{
+	margin:auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	background-color: #ccc;
+	overflow: hidden;
+}
+.first-circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	background: #fc0;
+}
+.second-circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	right: -50px;
+	bottom: -50px;
+	position: absolute;
+	background: #fc0;
+}
